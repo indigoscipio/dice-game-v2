@@ -8,7 +8,7 @@ a{
     text-decoration: none;
 }
 
-img#dice{
+#dice-img{
     width: 120px;
 }
 
@@ -41,7 +41,7 @@ body{
     align-items: center;
 }
 
-.dice-score{
+.player-one-dice-roll, .player-two-dice-roll{
     font-weight: bold;
     font-size: 12em;
 }
@@ -75,4 +75,13 @@ body{
     justify-content: center;
     align-items: center;
     gap: 32px;
+}
+
+.total-score{
+    margin-bottom: 32px;
+}
+
+.total-score span{
+    font-size: 48px;
+    font-weight: bold;
 }
