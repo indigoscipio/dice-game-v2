@@ -41,7 +41,7 @@ body{
     align-items: center;
 }
 
-.player-one-dice-roll, .player-two-dice-roll{
+#player-one-dice-roll-score, #player-two-dice-roll-score{
     font-weight: bold;
     font-size: 12em;
 }
