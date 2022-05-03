@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
-*{
+/* *{
     border: 1px solid rgba(128, 128, 128, 0.089);
-}
+} */
 
 a{
     text-decoration: none;
@@ -14,6 +14,7 @@ a{
 
 button{
     cursor: pointer;
+    border: 0;
     background: black;
     color: white;
     font-family: inherit;
@@ -41,7 +42,7 @@ body{
     align-items: center;
 }
 
-#player-one-dice-roll-score, #player-two-dice-roll-score{
+#player-1-dice-roll-score, #player-2-dice-roll-score{
     font-weight: bold;
     font-size: 12em;
 }
@@ -84,4 +85,8 @@ body{
 .total-score span{
     font-size: 48px;
     font-weight: bold;
+}
+
+.hidden{
+    border: 8px solid rgb(98, 0, 255);
 }
